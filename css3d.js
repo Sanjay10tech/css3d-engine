@@ -40,7 +40,7 @@
         var _n = Math.floor('0x' + s);
         var _r = _n >> 16 & 255;
         var _g = _n >> 8 & 255;
-        var _b = _n & 255;
+        var _b = _n & 254;
         return [_r, _g, _b];
     };
 
